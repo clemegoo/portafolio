@@ -1,0 +1,312 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root {
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+}
+
+head {
+    padding: 20px 0px;
+    font-weight: 100;
+}
+
+.title__profile {
+    width: 40vh;
+
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.conteiner h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+}
+.conteiner h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    
+}
+.conteiner li{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+}
+ol,
+ul,
+li {
+    text-align: center;
+    display: inline;
+    margin: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+
+section.menu {
+    font-size: 40px;
+
+}
+
+/*Sección Title*/
+
+section.title h2 {
+    font-size: 50px;
+    margin-left: 60%;
+    padding: 10px;
+}
+
+section.title h3 {
+    font-size: 20px;
+    margin-left: 60%;
+    padding: 10px;
+}
+
+/*Sección About*/
+
+section.about {
+    text-align: center;
+    font-size: 20px;
+    padding: 5%;
+}
+
+/*Sección Hobbies*/
+section.skills {
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10%;
+}
+
+section.skills h3 {
+    text-align: center;
+    padding: 10%;
+}
+
+section.hobbies {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+section.hobbies h3 {
+    text-align: center;
+    padding: 10%;
+}
+
+section.hobbies li {
+    display: inline-table;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+}
+
+
+/* Experiencia Académica*/
+
+section.academic {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+
+}
+
+section.academic h2 {
+    text-align: center;
+    padding: 10%;
+}
+
+section.academic li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+}
+
+/* experiencia*/
+
+section.experience {
+    text-align: center;
+    font-size: 20px;
+    padding: auto;
+    margin-top: 20px;
+}
+
+/*Contacto*/
+
+section.formcontato {}
+
+/*footeer*/
+.formcontato__text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.formcontato__text h3{
+    font-size: 25px;
+    text-align: center;
+}
+section.footer {
+    text-align: center;
+    font-size: 30px;
+
+}
+.formcontato__form{
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    display: inline;
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /* Menú */
+
+    /*title*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sección sobre mi*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+    /*Contacto*/
+
+    /*Footer*/
+
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.skillsConteiner {
+    background: rgb(128, 188, 231);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+
+}
+.skills__box{
+    display: flex;
+    justify-content: center;
+
+}
+.skills__box li{
+    margin: 0px !important;
+    
+}
+.skills__box.hobbies li{
+
+}
+
+.hobbies1{
+    font-size: 30px;
+    text-align: center;
+
+}
+.hobbies1 li{
+    
+    text-align: center;
+    font-size: 20px;
+    display:inline;
+    justify-content: center;
+    padding: 30px;
+    margin: 0px;
+    border-radius: 10px;
+
+}
